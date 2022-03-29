@@ -21,17 +21,16 @@ systemctl start nginx
 cd /usr/share/nginx/html
 chmod -R 777 /usr/share/nginx/html
 rm index.html
-FOLDER="https://raw.githubusercontent.com/serdamy-repository/master/Project-001-Roman-Numerals-Converter"
+FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite"
 wget "${FOLDER}"/app.py
 mkdir templates && cd templates
-wget "${FOLDER}"/templates/index.html
+wget "${FOLDER}"/harungur.com/index.html
 wget "${FOLDER}"/templates/result.html
 
 
 
 
 
-wget https://raw.githubusercontent.com/awsdevopsteam/ngniex/master/index.html
-wget https://raw.githubusercontent.com/awsdevopsteam/ngniex/master/ryu.jpg
+
 systemctl restart nginx
 systemctl enable nginx
