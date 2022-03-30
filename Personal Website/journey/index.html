@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Journey</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/sForm.js"></script>
+<script src="js/jquery.jqtransform.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'random',
+        pagination: false, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: true,
+        waitBannerAnimation: false,
+        progressBar: false
+    });
+    $("#tabs").tabs();
+    $().UItoTop({
+        easingType: 'easeOutQuart'
+    });
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body class="page1">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/logo.gif" alt=""></a></h1>
+      <div class="clear"></div>
+    </div>
+    <div class="menu_block">
+      <nav>
+        <ul class="sf-menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li class="with_ul"><a href="about.html">About Me</a>
+            <ul>
+              <li><a href="#">Agency</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Team</a></li>
+            </ul>
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="tours.html">My Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacts.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+<div class="main">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="slider-relative">
+        <div class="slider-block">
+          <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
+            <ul class="items">
+              <li><img src="images/slide.jpg" alt="">
+                <div class="banner">
+                  <div>My DEVOPS JURNEY</div>
+                  <br>
+                  <span> LEARNING</span> </div>
+              </li>
+              <li><img src="images/slide1.jpg" alt=""></li>
+              <li><img src="images/slide2.jpg" alt=""></li>
+              <li><img src="images/slide3.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="content">             <!--Başlık-->
+    <div class="grid_12">
+    <div class="">
+      <h3>Harun GÜR, DevOps Cloud Engineer</h3>
+      <img src="images/aws.png" alt="" class="img_inner fleft">
+      <p class="text1"><a href="#">Hey! I am Harun, a DevOps Cloud Engineer. Here, I would like introduce myself. Strong everyday-learning mentality combining with open-mindness and determination enables me learning new skill sets and adapting them onto new environments faster.Thanks to my experiences working multi-cultural environments, I could easily be part of multi-cultural/multi-functional IT teams without creating conflicts Being aware of Agile methodologies integrated with CI/CD Practices, I could be a helpful/useful member of an Agile/ a Scrum/a Kanban team. Equipped with modern DevOps tools such as Jira, Maven, Jenkins, Kubernetes, Docker, Ansible, Terraform, Nexus, Prometheus, Grafana as well as modern DevOps practices such as Dockerization, Orchestration, CI, CD and Continuous Monitoring, I could be your solution for better automated IT Infrastructure deployments as well as continuous integration and delivery for your productions. Here, feel free to roam around to see my works. Take your time!</p>
+      <p><!--2. tanıtım parağrafı--></p>
+      <div> </div> <!--3. tanıtım parağrafı--> </div> 
+  </div>
+<div class="container_4">
+  <div class="grid_12">
+    <img src="aws.png" style="width:200px;height:200px" href="github.com" alt="aws"/><h3>My AWS Project</h3> </a>
+  </div>             <!--Baslık-->
+
+
+
+  
+  <div class="boxes"> <!--AWS My Projects-->
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line3_img1.jpg" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Jenkins Server</h3>
+          Distributed version of the Spring PetClinic Sample Application built with Spring Cloud. This project aims to create full CI/CD Pipeline for microservice based applications using Spring Petclinic Microservices Application. Jenkins Server deployed on EC2 Instance is used as CI/CD Server to build pipelines.<a href="github.com" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line3_img2.png" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Kubernetes</h3>
+          Microservice Architecture for Phonebook Web Application (Python Flask) with MySQL using Kubernetes.
+Phonebook Microservice Web Application aims to create a web application with MySQL Database using Docker and Kubernetes to give students the understanding of Microservice architecture. In this application, we have a frontend service and a backend service to interact with database service. Each service will be managed by a Kubernetes deployment. The backend service will be a gateway for the application and it will serve the necessary web pages for create, delete and update operations while the frontend service will serve a search page in order to conduct read operations. To preserve the data in the database, persistent volume and persistent volume claim concepts should be adopted.<a href="#" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line3_img3.jpg" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Jenkins Server</h3>
+          Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="clear"></div>
+    <p>
+        <!--Bosluk-->
+    </p>
+    <div class="boxes">
+      <div class="grid_4">
+        <figure>
+          <div><img src="images/line2_img1.png" alt=""></div>
+          <figcaption>
+            <h3 style="font-size:30px;">Jenkins Server</h3>
+            Distributed version of the Spring PetClinic Sample Application built with Spring Cloud. This project aims to create full CI/CD Pipeline for microservice based applications using Spring Petclinic Microservices Application. Jenkins Server deployed on Elastic Compute Cloud (EC2) Instance is used as CI/CD Server to build pipelines. <a href="#" class="btn">Details</a> </figcaption>
+        </figure>
+      </div>
+      <div class="grid_4">
+        <figure>
+          <div><img src="images/line2_img2.jpg" alt=""></div>
+          <figcaption>
+            <h3 style="font-size:30px;">Jenkins Server</h3>
+            Psum dolor sit ametylo gerto consectetur ertori hykill holit adipiscing lity. Donecto rtopil osueremo	kollit asec emmodem geteq tiloli. Aliquam dapibus neclol nami wertoli elittro eget vulpoli no
+            utaterbil congue turpis in su. <a href="#" class="btn">Details</a> </figcaption>
+        </figure>
+      </div>
+      <div class="grid_4">
+        <figure>
+          <div><img src="images/line2_img3.png" alt=""></div>
+          <figcaption>
+            <h3 style="font-size:30px;">Jenkins Server</h3>
+            Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
+        </figure>
+      </div>
+      <div class="clear"></div>
+      <p>
+        <!--Boşluk-->
+      </p>
+  <div class="boxes">
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line1_img1.png" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Jenkins Server</h3>
+          Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line1_img2.png" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Jenkins Server</h3>
+          Psum dolor sit ametylo gerto consectetur ertori hykill holit adipiscing lity. Donecto rtopil osueremo	kollit asec emmodem geteq tiloli. Aliquam dapibus neclol nami wertoli elittro eget vulpoli no
+          utaterbil congue turpis in su. <a href="#" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="grid_4">
+      <figure>
+        <div><img src="images/line1_img3.png" alt=""></div>
+        <figcaption>
+          <h3 style="font-size:30px;">Jenkins Server</h3>
+          Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
+      </figure>
+    </div>
+    <div class="clear"></div>
+
+  
+  
+  <!--Baslık-->
+  <div class="content">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3>My General Projects</h3>
+      </div>
+  <div class="grid_8">
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">last Minute</a></li>
+        <li><a href="#tabs-2">hot Deals</a></li>
+        <li><a href="#tabs-3">All-Inclusive</a></li>
+      </ul>
+      <div class="clear"></div>
+      <div class="tab_cont" id="tabs-1"> <img src="images/page1_img4.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1">Rem psum dr sit amet. </div>
+          <p class="style1"><a class="col2" href="#">Click here</a> for more info about this website created by harungur.com </p>
+          Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro. <a href="#" class="btn">Details</a>
+          <div class="clear "></div>
+        </div>
+        <div class="clear cl1"></div>
+        <img src="images/page1_img5.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1 tx1">Hem psuf abr sit dmety. </div>
+          Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.
+          <div class="clear"></div>
+          <a href="#" class="btn bt1">Details</a>
+          <div class="clear "></div>
+        </div>
+      </div>
+      <div class="tab_cont" id="tabs-2"> <img src="images/page1_img4.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1">Rem psum dr sit amet. </div>
+          <p class="style1">Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro.</p>
+          Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro. <a href="#" class="btn">Details</a>
+          <div class="clear "></div>
+        </div>
+        <div class="clear cl1"></div>
+        <img src="images/page1_img5.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1 tx1">Hem psuf abr sit dmety. </div>
+          Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.
+          <div class="clear"></div>
+          <a href="#" class="btn bt1">Details</a>
+          <div class="clear "></div>
+        </div>
+      </div>
+      <div class="tab_cont" id="tabs-3"> <img src="images/page1_img4.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1">Rem psum dr sit amet. </div>
+          <p class="style1">Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro.</p>
+          Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro. <a href="#" class="btn">Details</a>
+          <div class="clear "></div>
+        </div>
+        <div class="clear cl1"></div>
+        <img src="images/page1_img5.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text1 tx1">Hem psuf abr sit dmety. </div>
+          Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.
+          <div class="clear"></div>
+          <a href="#" class="btn bt1">Details</a>
+          <div class="clear "></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      <div class="grid_4">
+        <div class="newsletter_title">NewsLetter </div>
+        <div class="n_container">
+          <form id="newsletter" action="#">
+            <div class="success">Your subscribe request has been sent!</div>
+            <div class="text1">Sign up to receive our newsletters </div>
+            <label class="email">
+              <input type="email" value="email address" >
+              <span class="error">*This is not a valid email address.</span> </label>
+            <div class="clear"></div>
+            <a href="#" class="" data-type="submit"></a>
+          </form>
+          <ul class="list">
+            <li><a href="#">Fgo psu dr sit amek </a></li>
+            <li><a href="#">Sem psum dr sit ametre </a></li>
+            <li><a href="#">Rame sum dr sit ame </a></li>
+            <li><a href="#">Bem psum dr sit ameteko </a></li>
+            <li><a href="#">Nem dsum dr sit amewas </a></li>
+            <li><a href="#">Vcem psum dr sit </a></li>
+            <li><a href="#">Zdfem psum dr sittr amewe </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<button onclick="onclickfunction()">Bookmark my page</button>
+    <script type="text/javascript">
+        function onclickfunction(){
+  alert('Press Ctrl + D to bookmark my page');
+}
+    </script>
+</body>
+</html>
+
+</header>
+<p>
+  <!--BİŞEY YAPIŞTIRMA-->
+</p>
+
+  
+  <div class="bottom_block">
+    <div class="container_12">
+      <div class="grid_2 prefix_2">
+        <ul>
+          <li><a href="#">FAQS Page</a></li>
+          <li><a href="#">People Say</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#">Useful links</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#">Insurance</a></li>
+          <li><a href="http://harungur.com">Family Travel</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <h4>Contact Me:</h4>
+        TEL: +90-505-225-41-51<br>
+        <a href="mailto:gurharun@gmail.com">gurharun@gmail.com</a> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="socials"> <a href="https://www.linkedin.com/in/harun-gür-98190267/"></a> <a href="mailto:gurharun@gmail.com"></a> <a href="https://github.com/HRNGR"></a> <a href="https://www.instagram.com/gurharun/"></a> </div>
+      <div class="copy"> Harun &copy; 2022 | <a href="#">Privacy Policy</a> | Design by: <a href="http://harungur.com/">harungur.com</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
