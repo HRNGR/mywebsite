@@ -128,7 +128,7 @@ cd ..
 
 ------------------------------
 
-# update ;
+# update 1 ;
 cd /usr/share/nginx/html
 rm index.html
 rm about.html
