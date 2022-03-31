@@ -128,7 +128,7 @@ cd ..
 
 ------------------------------
 
-# update 1 (Gallery deki gözükmeyen dosyalar)
+# update 1 (HTML dosyalarında yapılan değişiklikler için)
 cd /usr/share/nginx/html
 rm index.html
 rm about.html
