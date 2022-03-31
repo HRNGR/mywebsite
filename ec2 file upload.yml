@@ -123,7 +123,7 @@ systemctl enable nginx
 cd ..
 
 
-update ;
+# update ;
 cd /usr/share/nginx/html
 rm index.html
 rm about.html
