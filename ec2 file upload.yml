@@ -1,3 +1,7 @@
+#USERDATA
+#ec2 ile siteyi yükleme için kullanabileceğiniz USERDATA
+
+
 #! /bin/bash
 
 yum update -y
