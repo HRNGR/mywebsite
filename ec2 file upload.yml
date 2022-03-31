@@ -121,3 +121,18 @@ wget "${FOLDER}"/images/totop.png
 systemctl restart nginx
 systemctl enable nginx
 cd ..
+
+
+update ;
+cd /usr/share/nginx/html
+rm index.html
+rm about.html
+rm myproject.html
+rm gallery.html
+rm contacts.html
+FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite/main/harungurcom/"
+wget "${FOLDER}"/index.html
+wget "${FOLDER}"/about.html
+wget "${FOLDER}"/myproject.html
+wget "${FOLDER}"/gallery.html
+wget "${FOLDER}"/contacts.html
