@@ -128,7 +128,7 @@ cd ..
 
 ------------------------------
 
-# update 1 ;
+# update 1 (Gallery deki gözükmeyen dosyalar)
 cd /usr/share/nginx/html
 rm index.html
 rm about.html
@@ -156,3 +156,4 @@ rm gallery7.png
 wget "${FOLDER}"/images/gallery2.png
 wget "${FOLDER}"/images/gallery5.png
 wget "${FOLDER}"/images/gallery7.png
+------------------------------
