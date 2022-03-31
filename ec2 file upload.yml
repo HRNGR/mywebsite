@@ -122,6 +122,7 @@ systemctl restart nginx
 systemctl enable nginx
 cd ..
 
+------------------------------
 
 # update ;
 cd /usr/share/nginx/html
