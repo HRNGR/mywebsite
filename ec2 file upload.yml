@@ -158,3 +158,4 @@ rm gallery7.png
 wget "${FOLDER}"/images/gallery2.png
 wget "${FOLDER}"/images/gallery5.png
 wget "${FOLDER}"/images/gallery7.png
+------------------------------
