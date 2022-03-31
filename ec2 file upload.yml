@@ -136,3 +136,18 @@ wget "${FOLDER}"/about.html
 wget "${FOLDER}"/myproject.html
 wget "${FOLDER}"/gallery.html
 wget "${FOLDER}"/contacts.html
+cd
+cd /usr/share/nginx/html
+cd images
+rm smallview2.png
+rm smallview5.png
+rm smallview7.png
+wget "${FOLDER}"/images/smallview2.png
+wget "${FOLDER}"/images/smallview5.png
+wget "${FOLDER}"/images/smallview7.png
+rm gallery2.png
+rm gallery5.png
+rm gallery7.png
+wget "${FOLDER}"/images/gallery2.png
+wget "${FOLDER}"/images/gallery5.png
+wget "${FOLDER}"/images/gallery7.png
