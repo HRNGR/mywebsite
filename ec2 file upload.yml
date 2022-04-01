@@ -1,7 +1,6 @@
 #USERDATA
 #Websiteyi EC2'ya yükleme ve NGINX ile kullanabilmek için gerekli USERDATA
 
-
 #! /bin/bash
 
 yum update -y
@@ -166,3 +165,4 @@ wget "${FOLDER}"/images/gallery2.png
 wget "${FOLDER}"/images/gallery5.png
 wget "${FOLDER}"/images/gallery7.png
 ------------------------------
+#S3 için dosya hazırla
