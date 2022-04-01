@@ -149,7 +149,7 @@ wget "${FOLDER}"/contacts.html
 ------------------------------
 # Update 2 
 # Herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
-# Gallery deki gözükmeyen dosyalar ya da değiştirmek istediğiniz resim varsa
+# Gallery deki gözükmeyen dosyalar ya da değiştirmek istediğiniz resim varsa.
 
 cd /usr/share/nginx/html
 cd images
