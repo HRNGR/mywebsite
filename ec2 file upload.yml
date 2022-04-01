@@ -132,7 +132,6 @@ cd ..
 # Update 1 
 #HTML dosyalarında Visual Studio da yapılan değişiklikleri sitede güncellemek için 
 #HTML dosyalarında herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
-# Update 1 
 
 cd /usr/share/nginx/html
 rm index.html
@@ -148,6 +147,7 @@ wget "${FOLDER}"/gallery.html
 wget "${FOLDER}"/contacts.html
 
 ------------------------------
+# Update 1 
 # Herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
 # update 2 (Gallery deki gözükmeyen dosyalar ya da değiştirmek istediğiniz resim varsa)
 
