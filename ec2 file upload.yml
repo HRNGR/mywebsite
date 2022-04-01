@@ -149,16 +149,16 @@ wget "${FOLDER}"/contacts.html
 ------------------------------
 # Update 2 
 # Herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
-# update 2 (Gallery deki gözükmeyen dosyalar ya da değiştirmek istediğiniz resim varsa)
+# Gallery deki gözükmeyen dosyalar ya da değiştirmek istediğiniz resim varsa
 
 cd /usr/share/nginx/html
 cd images
-rm smallview2.png
-rm smallview5.png
-rm smallview7.png
-rm gallery2.png
-rm gallery5.png
-rm gallery7.png
+rm smallview2.PNG
+rm smallview5.PNG
+rm smallview7.PNG
+rm gallery2.PNG
+rm gallery5.PNG
+rm gallery7.PNG
 FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite/main/harungurcom/" #kendi github uzantınızı eklemeniz lazım sadece bu 6 gözükmeyen resim için benim github hesabımı da kullanabilirsiniz
 wget "${FOLDER}"/images/smallview2.png
 wget "${FOLDER}"/images/smallview5.png
