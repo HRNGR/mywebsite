@@ -1,5 +1,5 @@
 #USERDATA
-#ec2 ile siteyi yükleme için kullanabileceğiniz USERDATA
+#Websiteyi EC2'ya yükleme ve NGINX ile kullanabilmek için gerekli USERDATA
 
 
 #! /bin/bash
@@ -125,13 +125,12 @@ wget "${FOLDER}"/images/totop.png
 systemctl restart nginx
 systemctl enable nginx
 cd ..
-
 ------------------------------
 # Update Nasıl Yapılır
 
 # Update 1 
 #HTML dosyalarında Visual Studio da yapılan değişiklikleri sitede güncellemek için 
-#HTML dosyalarında herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
+#HTML dosyalarında herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz.
 
 cd /usr/share/nginx/html
 rm index.html
