@@ -136,7 +136,7 @@ rm about.html
 rm myproject.html
 rm gallery.html
 rm contacts.html
-FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite/main/harungurcom/"
+FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite/main/harungurcom/" #kendi github uzantınızı eklemeniz lazım
 wget "${FOLDER}"/index.html
 wget "${FOLDER}"/about.html
 wget "${FOLDER}"/myproject.html
@@ -152,12 +152,13 @@ cd images
 rm smallview2.png
 rm smallview5.png
 rm smallview7.png
-wget "${FOLDER}"/images/smallview2.png
-wget "${FOLDER}"/images/smallview5.png
-wget "${FOLDER}"/images/smallview7.png
 rm gallery2.png
 rm gallery5.png
 rm gallery7.png
+FOLDER="https://raw.githubusercontent.com/HRNGR/mywebsite/main/harungurcom/" #kendi github uzantınızı eklemeniz lazım sadece bu 6 gözükmeyen resim için benim github hesabımı da kullanabilirsiniz
+wget "${FOLDER}"/images/smallview2.png
+wget "${FOLDER}"/images/smallview5.png
+wget "${FOLDER}"/images/smallview7.png
 wget "${FOLDER}"/images/gallery2.png
 wget "${FOLDER}"/images/gallery5.png
 wget "${FOLDER}"/images/gallery7.png
