@@ -127,6 +127,7 @@ systemctl enable nginx
 cd ..
 
 ------------------------------
+# Update Nasıl Yapılır
 
 #HTML dosyalarında Visual Studio da yapılan değişiklikleri sitede güncellemek için 
 #HTML dosyalarında herhangi bir değişiklik yaptıktan sonra GitHub ı push edip aşağıdaki gibi update yapabilirsiniz
