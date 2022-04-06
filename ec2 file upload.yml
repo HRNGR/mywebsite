@@ -1,6 +1,6 @@
 #USERDATA
 #Websiteyi EC2'ya yükleme ve NGINX ile kullanabilmek için gerekli USERDATA
-
+----------------------
 #! /bin/bash
 
 yum update -y
