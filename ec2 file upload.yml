@@ -171,3 +171,4 @@ wget "${FOLDER}"/images/gallery7.png
 #s3 statik website ı aç
 #rout53 te record alian oluştur
 #s3'i seç
+#Değişiklik yaparsan ilgili dosyayı sil baştan yükle
