@@ -169,5 +169,5 @@ wget "${FOLDER}"/images/gallery7.png
 
 #S3 için dosya hazırla dosyaları yükle 
 #s3 statik website ı aç
-#rout53 te record oluştur
-#alian 
+#rout53 te record alian oluştur
+#
