@@ -165,4 +165,6 @@ wget "${FOLDER}"/images/gallery2.png
 wget "${FOLDER}"/images/gallery5.png
 wget "${FOLDER}"/images/gallery7.png
 ------------------------------
-#S3 için dosya hazırla
+
+
+#S3 için dosya hazırla dosyaları yükle 
