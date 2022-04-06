@@ -168,3 +168,4 @@ wget "${FOLDER}"/images/gallery7.png
 
 
 #S3 için dosya hazırla dosyaları yükle 
+#s3 statik website ı aç
