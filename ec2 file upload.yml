@@ -167,7 +167,7 @@ wget "${FOLDER}"/images/gallery7.png
 ------------------------------
 
 #S3 bucket ile çalıştırma kısa anlatım
-#S3 için dosya hazırla dosyaları yükle 
+#S3 için dosya hazırla dosyaları (yükle klasörler dahil) 
 #s3 statik website ı aç
 #rout53 te record alian oluştur
 #s3'i seç
