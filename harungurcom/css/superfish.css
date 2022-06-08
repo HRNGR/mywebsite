@@ -1,13 +1,13 @@
  
 .menu_block  {
-	position: relative;
-	padding-left: 144px;
-	padding-top: 97px;
+	position: center;
+	padding-left: 50px;
+	padding-top: 110px;
 
 }
 
 nav>.sf-menu {
-	text-align: center;
+	text-align: relative;
 }
 nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
@@ -19,11 +19,11 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu>li:first-child+li+li {
-	margin-right: 227px;
+	margin-right: 180px;
 }
 
 .sf-menu>li+li {
-	margin-left:58px;
+	margin-left:40px;
 }
 
 .sf-menu>li:hover, .sf-menu>li.sfHover, .sf-menu>li.current {
@@ -33,14 +33,14 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li>a{
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 30px;
 	font-family: 'Pathway Gothic One', sans-serif;
 	color: #fff;
-	position: relative;
+	position: center;
 	font-weight: 300px;
 	line-height: 28px;
 	z-index: 999;
-	position: relative;
+	position: center;
 }
 
 
@@ -56,7 +56,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	left: 50%;
 	margin-left: -33px;
 
-	width: 66px;
+	width: 175px;
 	z-index: 999; 
 	padding-top: 7px;
 	border-radius: 3px;
